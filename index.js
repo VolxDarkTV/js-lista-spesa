@@ -29,3 +29,15 @@ while(i < lista.length){
     console.log(lista[i -1]);
 }
 
+// Configuro il bottone
+send.addEventListener('click',
+    function(){
+        let addElement = lista.push(data.value);
+        let stampa = document.getElementById('print').innerHTML += `<li class=elementi>${lista[i]}</li>`;
+        console.log(lista [i]);
+        
+        // ripristino l'imput
+        data.value = null
+    }
+    );
+    
