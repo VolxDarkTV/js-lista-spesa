@@ -29,9 +29,3 @@ while(i < lista.length){
     console.log(lista[i -1]);
 }
 
-// Configuro il bottone
-// send.addEventListener('click',
-//     function(){
-
-//     }
-// );
